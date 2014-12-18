@@ -92,7 +92,7 @@ class LinuxServiceCleaner(BasePlatformCleaner):
             dest='ignore',
             action='store_const',
             const=True,
-            help='Ignore errors default: False)'
+            help='Ignore errors.'
         )
 
     def enforce(self, dryrun=False):
